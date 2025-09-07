@@ -9,3 +9,4 @@ CMD ["asl_rust_app"]
 
 # docker build -t asl-rust-app . (BUILD CONTAINER)
 # docker run --rm asl-rust-app  (RUN CONTAINER)
+#blank
