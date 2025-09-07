@@ -8,3 +8,6 @@ RUN npm install
 COPY . .
 
 CMD [ "node", "hello.js"]
+
+# docker build -t my-node-app . (BUILD CONTAINER)
+# docker run --rm my-node-app (RUN CONTAINER)

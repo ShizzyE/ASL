@@ -8,3 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD [ "python", "hello.py" ]
+
+# docker build -t my-python-app . (BUILD CONTAINER)
+# docker run -it --rm --name my-running-app my-python-app (RUN CONTAINER)
